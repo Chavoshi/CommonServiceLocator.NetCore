@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Source/ServiceLocation/obj
+/Source/ServiceLocation/bin
+/Source/ServiceLocation/.vs/ServiceLocation/v15
+/Source/.vs
+/.vs

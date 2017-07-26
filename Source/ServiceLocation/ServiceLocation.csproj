@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AssemblyName>Microsoft.Practices.ServiceLocation</AssemblyName>
+    <RootNamespace>Microsoft.Practices.ServiceLocation</RootNamespace>
+
+    <PackageId>CommonServiceLocator.NetCore</PackageId>
+    <Title>CommonServiceLocator .Net Core</Title>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>Mohammad Chavoshi</Authors>
+    <Description>The Common Service Locator library contains a shared interface for service location which application and framework developers can reference. The library provides an abstraction over IoC containers and service locators. Using the library allows an application to indirectly access the capabilities without relying on hard references. The hope is that using this library, third-party applications and frameworks can begin to leverage IoC/Service Location without tying themselves down to a specific implementation. This library contains a class library that targets .Net Core 2.0.</Description>
+    <PackageTags>CommonServiceLocator ServiceLocation Microsoft.Practices.ServiceLocation NetCore</PackageTags>
+    <PackageIconUrl>http://nuget.org/Media/Default/Packages/Unity/2.0/entlib_new_icon_100x100.png</PackageIconUrl>
+    <PackageProjectUrl>https://github.com/Chavoshi/CommonServiceLocator.NetCore</PackageProjectUrl>
+    <PackageLicenseUrl>http://opensource.org/licenses/Apache-2.0</PackageLicenseUrl>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+</Project>
