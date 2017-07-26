@@ -2,6 +2,12 @@
 
 This file explains the expected semantics IServiceLocator implementations must implement to properly conform to this interface, and a few implementation notes.
 
+## How To Install The Package
+
+To install CommonServiceLocator .Net Core, run the following command in the Package Manager Console:
+
+    PM> Install-Package CommonServiceLocator.NetCore
+
 ## Package URL
 
 https://www.nuget.org/packages/CommonServiceLocator.NetCore/
