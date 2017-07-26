@@ -69,6 +69,4 @@ When throwing an ActivationException, the original exception MUST be returned as
 This class is not part of the specification; consumers should only reference the IServiceLocator interface. ServiceLocatorImplBase is provided as a convenience for implementors of IServiceLocator. It implements the correct overload semantics and exception wrapping behavior defined above. You just need to implement the two protected methods DoGetInstance and DoGetAllInstances and the rest will just work. In addition, the two protected methods FormatActivationExceptionMessage and FormatActivateAllExceptionMessage are provided if you wish to customize the error message reported in the exceptions.
 
 
-## Nuget Package Url
-
-[a link](https://www.nuget.org/packages/CommonServiceLocator.NetCore/)
+[## Nuget Package Url](https://www.nuget.org/packages/CommonServiceLocator.NetCore/)
