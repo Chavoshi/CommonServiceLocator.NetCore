@@ -2,9 +2,9 @@
 
 This file explains the expected semantics IServiceLocator implementations must implement to properly conform to this interface, and a few implementation notes.
 
-==== Specification ====
+## Specification
 
-**** GetInstance(Type, string) ****
+#### GetInstance(Type, string)
 
 This is the core method for retrieving a single instance from the container.
 
@@ -13,7 +13,7 @@ No other exception type is allowed (except for the usual CLR rules for things li
 
 The implementation should be designed to expect a null for the string key parameter, and MUST interpret this as a request to get the "default" instance for the requested type. The meaning of "default" depends on the underlying container and how it is configured. A string of length 0 is considered to be different from a null, and implementers are free to choose what a string of length 0 as a key means.
 
-**** GetAllInstances(Type) ****
+#### GetAllInstances(Type)
 
 This is the core method for retrieving multiple instances from the container.
 
@@ -21,7 +21,7 @@ If the container contains no instances of the requested type, this method MUST r
 
 If an exception occurs while activating instances during enumeration, this method SHOULD throw an ActivationException and abort the enumeration. However, it may also choose to simply skip that object and continue enumerating.
 
-**** Overload Behavior ****
+#### Overload Behavior
 
 A call to:
 
@@ -57,7 +57,7 @@ Must be exactly equivalent to a call to:
     
 with the exception that the objects returned by the enumerator are already cast to type TService.
 
-**** Throwing ActivationException ****
+#### Throwing ActivationException
 
 When throwing an ActivationException, the message string is explicitly undefined by this specification; the adapter implementors may format this message in any way they choose.
 
