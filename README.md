@@ -1,10 +1,10 @@
-# CommonServiceLocator for .Net Core 2.0
+# CommonServiceLocator for .Net Core 2.0 & .Net Standard 2.0
 
 This file explains the expected semantics IServiceLocator implementations must implement to properly conform to this interface, and a few implementation notes.
 
 ## How To Install The Package
 
-To install CommonServiceLocator for .Net Core 2.0, run the following command in the Package Manager Console:
+To install CommonServiceLocator for .Net Core 2.0 & .Net Standard 2.0, run the following command in the Package Manager Console:
 
     PM> Install-Package CommonServiceLocator.NetCore
 
